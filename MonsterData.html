@@ -1,0 +1,48 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+		@import url("MonsterData.css");
+	</style>
+    <title>Monster DataBase</title>
+</head>
+<body>
+    <section>
+        <table id="tableMonster">
+            <thead>
+            <tr id="names">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Disaster Level</th>
+                <th>Defeat Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </section>
+    <section id="settingButton">
+        <input type="text" id="inputID" name="ID">
+        <button type="submit" id="delete">Delete</button>
+    </section>
+    <button id="fold"></button>    
+    <section id="formSec">
+        <h3>Monster Form</h3>
+        <form method="post" id="monsterForm">
+            Name
+            <input type="text" id="inputName" name="name"><br>
+            Disaster Level
+            <input type="text" id="inputLevel" name="level"><br>
+            Defeat Date
+            <input type="text" id="inputDate" name="date"><br>
+            <input type="submit" id="submit" name="Save"><br>
+        </form>
+    </section>
+    <section id="nightMode">
+        <button id="night"></button>
+    </section>
+    <script src="jquery-3.2.1.min.js"></script>    
+    <script src="MonsterData.js"></script>
+</body>
+</html>

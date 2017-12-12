@@ -1,0 +1,54 @@
+body
+{
+    background-color: #F8AFAF;
+}
+
+table
+{
+    width: 40%;    
+}
+
+th, td
+{
+    border : groove;
+	height : inherit;
+}
+
+form {
+	padding : 5px;
+}
+
+input {
+	width: 100%;
+	padding : inherit;
+}
+
+#formSec
+{
+    width: 30%;
+}
+
+#nightMode
+{
+    position: fixed;
+    top: 0px;
+    right:0px;
+    float: right;
+}
+
+#fold
+{
+    margin-bottom: 7px;
+    
+}
+
+#inputID
+{
+    margin: 10px 0 10px 0;
+    width: 5%;
+}
+h3
+{
+    margin-left:5px;
+    margin-bottom: -5px;
+}
